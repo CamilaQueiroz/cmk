@@ -1,0 +1,50 @@
+$sizeAvatar: 130px;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.8rem;
+  margin: 1rem 0.6rem;
+  background-color: #2a3038;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-avatar {
+    padding: 1rem;
+    img {
+      width: $sizeAvatar;
+      height: $sizeAvatar;
+      border-radius: 100%;
+      object-fit: cover;
+    }
+  }
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    p:first-child {
+      color: #ffffff;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    p > a {
+      color: #008fd4;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      text-decoration: none;
+      border: 1px solid #008fd4;
+      background: transparent;
+      transition: 0.3s;
+      display: inline-block;
+      &:hover {
+        background: #008fd4;
+        color: #fff;
+        box-shadow: 3px 3px 0px rgba(94, 191, 255, 0.4);
+      }
+    }
+  }
+}

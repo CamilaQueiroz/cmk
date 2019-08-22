@@ -1,0 +1,21 @@
+@media (min-width: 600px) and (max-width: 899px) {
+  .column-card {
+    width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .column-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+  }
+  .card .card-avatar img {
+    width: 90px;
+    height: 90px;
+  }
+}
