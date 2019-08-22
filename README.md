@@ -1,2 +1,6 @@
-# npm/yarn start
-To run project
+### To install dependencies
+npm install / yarn
+
+### To run project
+npm/yarn start
+
